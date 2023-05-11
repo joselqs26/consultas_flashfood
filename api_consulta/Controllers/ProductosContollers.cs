@@ -5,7 +5,7 @@ using Microsoft.Data.SqlClient;
 namespace api_consulta.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("/productos")]
     public class ProductosContollers : ControllerBase
     {
         [HttpGet(Name = "GetProductos")]
